@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EAF7EC61D82656300E25ABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7EC51D82656300E25ABC /* main.m */; };
+		3EAF7EC91D82656300E25ABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7EC81D82656300E25ABC /* AppDelegate.m */; };
+		3EAF7ECC1D82656300E25ABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7ECB1D82656300E25ABC /* ViewController.m */; };
+		3EAF7ECF1D82656300E25ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7ECD1D82656300E25ABC /* Main.storyboard */; };
+		3EAF7ED11D82656300E25ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7ED01D82656300E25ABC /* Assets.xcassets */; };
+		3EAF7ED41D82656300E25ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7ED21D82656300E25ABC /* LaunchScreen.storyboard */; };
+		3EAF7EDF1D82656300E25ABC /* XLPopViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7EDE1D82656300E25ABC /* XLPopViewDemoTests.m */; };
+		3EAF7EEA1D82656300E25ABC /* XLPopViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7EE91D82656300E25ABC /* XLPopViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EAF7EDB1D82656300E25ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EAF7EB91D82656300E25ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EAF7EC01D82656300E25ABC;
+			remoteInfo = XLPopViewDemo;
+		};
+		3EAF7EE61D82656300E25ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EAF7EB91D82656300E25ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EAF7EC01D82656300E25ABC;
+			remoteInfo = XLPopViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EAF7EC11D82656300E25ABC /* XLPopViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPopViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAF7EC51D82656300E25ABC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EAF7EC71D82656300E25ABC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EAF7EC81D82656300E25ABC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EAF7ECA1D82656300E25ABC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EAF7ECB1D82656300E25ABC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EAF7ECE1D82656300E25ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EAF7ED01D82656300E25ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EAF7ED31D82656300E25ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EAF7ED51D82656300E25ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EAF7EDA1D82656300E25ABC /* XLPopViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPopViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAF7EDE1D82656300E25ABC /* XLPopViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopViewDemoTests.m; sourceTree = "<group>"; };
+		3EAF7EE01D82656300E25ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EAF7EE51D82656300E25ABC /* XLPopViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPopViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAF7EE91D82656300E25ABC /* XLPopViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopViewDemoUITests.m; sourceTree = "<group>"; };
+		3EAF7EEB1D82656300E25ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EAF7EBE1D82656300E25ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAF7ED71D82656300E25ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAF7EE21D82656300E25ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EAF7EB81D82656300E25ABC = {
+			isa = PBXGroup;
+			children = (
+				3EAF7EC31D82656300E25ABC /* XLPopViewDemo */,
+				3EAF7EDD1D82656300E25ABC /* XLPopViewDemoTests */,
+				3EAF7EE81D82656300E25ABC /* XLPopViewDemoUITests */,
+				3EAF7EC21D82656300E25ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EAF7EC21D82656300E25ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EAF7EC11D82656300E25ABC /* XLPopViewDemo.app */,
+				3EAF7EDA1D82656300E25ABC /* XLPopViewDemoTests.xctest */,
+				3EAF7EE51D82656300E25ABC /* XLPopViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EAF7EC31D82656300E25ABC /* XLPopViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3EAF7EC71D82656300E25ABC /* AppDelegate.h */,
+				3EAF7EC81D82656300E25ABC /* AppDelegate.m */,
+				3EAF7ECA1D82656300E25ABC /* ViewController.h */,
+				3EAF7ECB1D82656300E25ABC /* ViewController.m */,
+				3EAF7ECD1D82656300E25ABC /* Main.storyboard */,
+				3EAF7ED01D82656300E25ABC /* Assets.xcassets */,
+				3EAF7ED21D82656300E25ABC /* LaunchScreen.storyboard */,
+				3EAF7ED51D82656300E25ABC /* Info.plist */,
+				3EAF7EC41D82656300E25ABC /* Supporting Files */,
+			);
+			path = XLPopViewDemo;
+			sourceTree = "<group>";
+		};
+		3EAF7EC41D82656300E25ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EAF7EC51D82656300E25ABC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EAF7EDD1D82656300E25ABC /* XLPopViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EAF7EDE1D82656300E25ABC /* XLPopViewDemoTests.m */,
+				3EAF7EE01D82656300E25ABC /* Info.plist */,
+			);
+			path = XLPopViewDemoTests;
+			sourceTree = "<group>";
+		};
+		3EAF7EE81D82656300E25ABC /* XLPopViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EAF7EE91D82656300E25ABC /* XLPopViewDemoUITests.m */,
+				3EAF7EEB1D82656300E25ABC /* Info.plist */,
+			);
+			path = XLPopViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EAF7EC01D82656300E25ABC /* XLPopViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAF7EEE1D82656300E25ABC /* Build configuration list for PBXNativeTarget "XLPopViewDemo" */;
+			buildPhases = (
+				3EAF7EBD1D82656300E25ABC /* Sources */,
+				3EAF7EBE1D82656300E25ABC /* Frameworks */,
+				3EAF7EBF1D82656300E25ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLPopViewDemo;
+			productName = XLPopViewDemo;
+			productReference = 3EAF7EC11D82656300E25ABC /* XLPopViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EAF7ED91D82656300E25ABC /* XLPopViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAF7EF11D82656300E25ABC /* Build configuration list for PBXNativeTarget "XLPopViewDemoTests" */;
+			buildPhases = (
+				3EAF7ED61D82656300E25ABC /* Sources */,
+				3EAF7ED71D82656300E25ABC /* Frameworks */,
+				3EAF7ED81D82656300E25ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EAF7EDC1D82656300E25ABC /* PBXTargetDependency */,
+			);
+			name = XLPopViewDemoTests;
+			productName = XLPopViewDemoTests;
+			productReference = 3EAF7EDA1D82656300E25ABC /* XLPopViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EAF7EE41D82656300E25ABC /* XLPopViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAF7EF41D82656300E25ABC /* Build configuration list for PBXNativeTarget "XLPopViewDemoUITests" */;
+			buildPhases = (
+				3EAF7EE11D82656300E25ABC /* Sources */,
+				3EAF7EE21D82656300E25ABC /* Frameworks */,
+				3EAF7EE31D82656300E25ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EAF7EE71D82656300E25ABC /* PBXTargetDependency */,
+			);
+			name = XLPopViewDemoUITests;
+			productName = XLPopViewDemoUITests;
+			productReference = 3EAF7EE51D82656300E25ABC /* XLPopViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EAF7EB91D82656300E25ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jellyfish;
+				TargetAttributes = {
+					3EAF7EC01D82656300E25ABC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3EAF7ED91D82656300E25ABC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3EAF7EC01D82656300E25ABC;
+					};
+					3EAF7EE41D82656300E25ABC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3EAF7EC01D82656300E25ABC;
+					};
+				};
+			};
+			buildConfigurationList = 3EAF7EBC1D82656300E25ABC /* Build configuration list for PBXProject "XLPopViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EAF7EB81D82656300E25ABC;
+			productRefGroup = 3EAF7EC21D82656300E25ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EAF7EC01D82656300E25ABC /* XLPopViewDemo */,
+				3EAF7ED91D82656300E25ABC /* XLPopViewDemoTests */,
+				3EAF7EE41D82656300E25ABC /* XLPopViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EAF7EBF1D82656300E25ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAF7ED41D82656300E25ABC /* LaunchScreen.storyboard in Resources */,
+				3EAF7ED11D82656300E25ABC /* Assets.xcassets in Resources */,
+				3EAF7ECF1D82656300E25ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAF7ED81D82656300E25ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAF7EE31D82656300E25ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EAF7EBD1D82656300E25ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAF7ECC1D82656300E25ABC /* ViewController.m in Sources */,
+				3EAF7EC91D82656300E25ABC /* AppDelegate.m in Sources */,
+				3EAF7EC61D82656300E25ABC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAF7ED61D82656300E25ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAF7EDF1D82656300E25ABC /* XLPopViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAF7EE11D82656300E25ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAF7EEA1D82656300E25ABC /* XLPopViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EAF7EDC1D82656300E25ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EAF7EC01D82656300E25ABC /* XLPopViewDemo */;
+			targetProxy = 3EAF7EDB1D82656300E25ABC /* PBXContainerItemProxy */;
+		};
+		3EAF7EE71D82656300E25ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EAF7EC01D82656300E25ABC /* XLPopViewDemo */;
+			targetProxy = 3EAF7EE61D82656300E25ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EAF7ECD1D82656300E25ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EAF7ECE1D82656300E25ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EAF7ED21D82656300E25ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EAF7ED31D82656300E25ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EAF7EEC1D82656300E25ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EAF7EED1D82656300E25ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EAF7EEF1D82656300E25ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLPopViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guofu.ZXL.XLPopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EAF7EF01D82656300E25ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLPopViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guofu.ZXL.XLPopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3EAF7EF21D82656300E25ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLPopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guofu.ZXL.XLPopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLPopViewDemo.app/XLPopViewDemo";
+			};
+			name = Debug;
+		};
+		3EAF7EF31D82656300E25ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLPopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guofu.ZXL.XLPopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLPopViewDemo.app/XLPopViewDemo";
+			};
+			name = Release;
+		};
+		3EAF7EF51D82656300E25ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLPopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guofu.ZXL.XLPopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLPopViewDemo;
+			};
+			name = Debug;
+		};
+		3EAF7EF61D82656300E25ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLPopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guofu.ZXL.XLPopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLPopViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EAF7EBC1D82656300E25ABC /* Build configuration list for PBXProject "XLPopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAF7EEC1D82656300E25ABC /* Debug */,
+				3EAF7EED1D82656300E25ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EAF7EEE1D82656300E25ABC /* Build configuration list for PBXNativeTarget "XLPopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAF7EEF1D82656300E25ABC /* Debug */,
+				3EAF7EF01D82656300E25ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EAF7EF11D82656300E25ABC /* Build configuration list for PBXNativeTarget "XLPopViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAF7EF21D82656300E25ABC /* Debug */,
+				3EAF7EF31D82656300E25ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EAF7EF41D82656300E25ABC /* Build configuration list for PBXNativeTarget "XLPopViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAF7EF51D82656300E25ABC /* Debug */,
+				3EAF7EF61D82656300E25ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EAF7EB91D82656300E25ABC /* Project object */;
+}
