@@ -12,9 +12,13 @@
 		3EAF7ECC1D82656300E25ABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7ECB1D82656300E25ABC /* ViewController.m */; };
 		3EAF7ECF1D82656300E25ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7ECD1D82656300E25ABC /* Main.storyboard */; };
 		3EAF7ED11D82656300E25ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7ED01D82656300E25ABC /* Assets.xcassets */; };
-		3EAF7ED41D82656300E25ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7ED21D82656300E25ABC /* LaunchScreen.storyboard */; };
 		3EAF7EDF1D82656300E25ABC /* XLPopViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7EDE1D82656300E25ABC /* XLPopViewDemoTests.m */; };
 		3EAF7EEA1D82656300E25ABC /* XLPopViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7EE91D82656300E25ABC /* XLPopViewDemoUITests.m */; };
+		3EAF7F0F1D82685300E25ABC /* XLPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7F0E1D82685300E25ABC /* XLPopView.m */; };
+		3EAF7FA81D82935600E25ABC /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7FA51D82935600E25ABC /* UIImage+GIF.m */; };
+		3EAF7FA91D82935600E25ABC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7FA71D82935600E25ABC /* UIView+Extension.m */; };
+		3EAF7FAB1D8298D100E25ABC /* loding.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3EAF7FAA1D8298D100E25ABC /* loding.gif */; };
+		3EAF7FAE1D829F1500E25ABC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAF7FAD1D829F1500E25ABC /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +47,6 @@
 		3EAF7ECB1D82656300E25ABC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3EAF7ECE1D82656300E25ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EAF7ED01D82656300E25ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3EAF7ED31D82656300E25ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EAF7ED51D82656300E25ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EAF7EDA1D82656300E25ABC /* XLPopViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPopViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAF7EDE1D82656300E25ABC /* XLPopViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopViewDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 		3EAF7EE51D82656300E25ABC /* XLPopViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPopViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAF7EE91D82656300E25ABC /* XLPopViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopViewDemoUITests.m; sourceTree = "<group>"; };
 		3EAF7EEB1D82656300E25ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EAF7F0D1D82685300E25ABC /* XLPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopView.h; sourceTree = "<group>"; };
+		3EAF7F0E1D82685300E25ABC /* XLPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPopView.m; sourceTree = "<group>"; };
+		3EAF7FA41D82935600E25ABC /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		3EAF7FA51D82935600E25ABC /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		3EAF7FA61D82935600E25ABC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3EAF7FA71D82935600E25ABC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3EAF7FAA1D8298D100E25ABC /* loding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loding.gif; sourceTree = "<group>"; };
+		3EAF7FAC1D829F1500E25ABC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3EAF7FAD1D829F1500E25ABC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +113,15 @@
 		3EAF7EC31D82656300E25ABC /* XLPopViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3EAF7F0C1D82684A00E25ABC /* XLPopView */,
 				3EAF7EC71D82656300E25ABC /* AppDelegate.h */,
 				3EAF7EC81D82656300E25ABC /* AppDelegate.m */,
 				3EAF7ECA1D82656300E25ABC /* ViewController.h */,
 				3EAF7ECB1D82656300E25ABC /* ViewController.m */,
+				3EAF7FAC1D829F1500E25ABC /* TestViewController.h */,
+				3EAF7FAD1D829F1500E25ABC /* TestViewController.m */,
 				3EAF7ECD1D82656300E25ABC /* Main.storyboard */,
 				3EAF7ED01D82656300E25ABC /* Assets.xcassets */,
-				3EAF7ED21D82656300E25ABC /* LaunchScreen.storyboard */,
 				3EAF7ED51D82656300E25ABC /* Info.plist */,
 				3EAF7EC41D82656300E25ABC /* Supporting Files */,
 			);
@@ -138,6 +152,20 @@
 				3EAF7EEB1D82656300E25ABC /* Info.plist */,
 			);
 			path = XLPopViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		3EAF7F0C1D82684A00E25ABC /* XLPopView */ = {
+			isa = PBXGroup;
+			children = (
+				3EAF7F0D1D82685300E25ABC /* XLPopView.h */,
+				3EAF7F0E1D82685300E25ABC /* XLPopView.m */,
+				3EAF7FAA1D8298D100E25ABC /* loding.gif */,
+				3EAF7FA41D82935600E25ABC /* UIImage+GIF.h */,
+				3EAF7FA51D82935600E25ABC /* UIImage+GIF.m */,
+				3EAF7FA61D82935600E25ABC /* UIView+Extension.h */,
+				3EAF7FA71D82935600E25ABC /* UIView+Extension.m */,
+			);
+			path = XLPopView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EAF7ED41D82656300E25ABC /* LaunchScreen.storyboard in Resources */,
 				3EAF7ED11D82656300E25ABC /* Assets.xcassets in Resources */,
 				3EAF7ECF1D82656300E25ABC /* Main.storyboard in Resources */,
+				3EAF7FAB1D8298D100E25ABC /* loding.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EAF7ECC1D82656300E25ABC /* ViewController.m in Sources */,
+				3EAF7F0F1D82685300E25ABC /* XLPopView.m in Sources */,
+				3EAF7FAE1D829F1500E25ABC /* TestViewController.m in Sources */,
 				3EAF7EC91D82656300E25ABC /* AppDelegate.m in Sources */,
+				3EAF7FA81D82935600E25ABC /* UIImage+GIF.m in Sources */,
+				3EAF7FA91D82935600E25ABC /* UIView+Extension.m in Sources */,
 				3EAF7EC61D82656300E25ABC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +346,6 @@
 				3EAF7ECE1D82656300E25ABC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3EAF7ED21D82656300E25ABC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3EAF7ED31D82656300E25ABC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,7 +439,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = XLPopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = guofu.ZXL.XLPopViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +452,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = XLPopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = guofu.ZXL.XLPopViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +526,7 @@
 				3EAF7EF01D82656300E25ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EAF7EF11D82656300E25ABC /* Build configuration list for PBXNativeTarget "XLPopViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +535,7 @@
 				3EAF7EF31D82656300E25ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EAF7EF41D82656300E25ABC /* Build configuration list for PBXNativeTarget "XLPopViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +544,7 @@
 				3EAF7EF61D82656300E25ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
