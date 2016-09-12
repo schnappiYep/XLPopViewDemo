@@ -1,4 +1,6 @@
 # XLPopViewDemo
+![模拟效果.gif](http://upload-images.jianshu.io/upload_images/1992366-1fdb8cd20221649c.gif?imageMogr2/auto-orient/strip)
+***
 XLPopView有提供了四种弹出框样式：   
          1、固定提示title、右上角关闭按钮、下面确定按钮，中间提示文字可自定义；   
          2、固定左边gif、右上角关闭按钮，中间提示文字可自定义；   
